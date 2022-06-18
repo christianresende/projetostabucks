@@ -14,3 +14,62 @@ header .line{
     height: 10px;
     width: 100%;
 }
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header--area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+.header--left img {
+    width: 51px;
+    height: 51px;
+}
+
+.header--search form {
+    display: flex;
+
+}
+
+.header--search input {
+    font-size: 16px;
+    padding: 8px 15px ;
+    border: 1px solid #c7c7c7;
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+}
+
+.header--search button {
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+    cursor:pointer;
+}
+.header--search button img {
+    width: 16px;
+    height: 16px;
+    
+}
+
+.header--right{
+    display: flex;
+    align-items: center;
+
+}
+
+.header--menu {
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+.header--menu img {
+    width: 24px;
+    height: 24px;
+}
